@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - print with proper grammar, but the outcome is a piece of art,
  *
- * return: 0 (success)
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
