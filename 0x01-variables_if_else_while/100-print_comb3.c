@@ -5,7 +5,6 @@
  * Return: Always 0 (successful)
  */
 int main(void)
-{
 	int i, e;
 
 	i = 48;
@@ -35,4 +34,3 @@ int main(void)
 		return (0);
 		}
 	}
-}
