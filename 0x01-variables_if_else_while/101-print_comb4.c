@@ -20,12 +20,12 @@ int main(void)
 			g = 48;
 			while (g < 58)
 			{
-				if (i != e && i != g && e < i && i < g)
+				if (e != i && e != g && e < i && i < g)
 				{
 					putchar(e);
 					putchar(i);
 					putchar(g);
-					if (i == 57 && e == 56 && g == 58)
+					if (i == 56 && e == 55 && g == 57)
 					{
 						break;
 					}
