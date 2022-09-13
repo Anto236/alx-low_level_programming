@@ -1,1 +1,2 @@
-0. program that prints _putchar with a return value of 0
+0. program that prints _putchar 
+1. programs that prints alphabets in lower case
