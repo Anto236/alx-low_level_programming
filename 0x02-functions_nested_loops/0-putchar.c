@@ -1,21 +1,19 @@
 #include "main.h"
-
 /**
- * main - prints _putchar
+ * main - prints main as a messege
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	int str[] = {109, 97, 105, 110};
+	int count, size;
 
+	size = sizeof(str) / sizeof(int);
+	for (count = 0; count < size; count++)
+	{
+		_putchar(str[count]);
+	}
+	_putchar('\n');
 	return (0);
 }
