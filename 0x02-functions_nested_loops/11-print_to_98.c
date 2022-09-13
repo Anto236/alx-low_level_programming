@@ -19,7 +19,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				printf("%d\n", j);
+				printf("%d\n", i);
 			}
 		}
 	}
@@ -33,7 +33,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				print("%d\n", j);
+				printf("%d\n", j);
 			}
 		}
 	}
