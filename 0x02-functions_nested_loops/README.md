@@ -4,3 +4,4 @@
 3. checks for lower case characters and prints them. otherwise it prints 0
 4. checks for letters and prints them.
 5. Prints the sign of a number 
+6. computes the absolute value of an integer.
