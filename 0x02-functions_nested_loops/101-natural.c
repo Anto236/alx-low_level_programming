@@ -10,8 +10,8 @@ int main(void)
 	for (i = 1; i < 1024; i++)
 	{
 		if ((i % 3) == 0 || (i % 5) == 0)
-			j += i
+			j += i;
 	}
-	printf("d%\n", j);
+	printf("%d\n", j);
 	return (0);
 }
