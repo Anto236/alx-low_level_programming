@@ -5,3 +5,4 @@
 3. a function that prints the numbers, from 0 to 9, followed by a new line.
 4. a function that prints the numbers, from 0 to 9, followed by a new line and do not print 2 and 4
 5. a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+6. a function that draws a straight line in the terminal.
