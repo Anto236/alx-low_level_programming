@@ -6,4 +6,5 @@
 4. a function that prints the numbers, from 0 to 9, followed by a new line and do not print 2 and 4
 5. a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
 6. a function that draws a straight line in the terminal.
-7. I feel like I am diagonally parked in a parallel universe
+7.  a function that draws a diagonal line on the terminal. Where n is the number of times the character \ should be printed
+8.  a function that prints a square, followed by a new line. 
