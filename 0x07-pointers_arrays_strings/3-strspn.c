@@ -19,7 +19,8 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				k++;
 			}
-		}	j++;
+			j++;
+		}
 		i++;
 	}
 	return (k);
