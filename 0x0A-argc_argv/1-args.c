@@ -6,7 +6,7 @@
  * @argv: string
  * Return: 0 on success
  */
-int main(int arg, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	printf("%d\n", arg - 1);
 	return (0);
