@@ -1,0 +1,13 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * main - print length of argument
+ * @argc: length of index
+ * @argv: string
+ * Return: 0 on success
+ */
+int main(int arg, char *argv[] __attribute__((unused)))
+{
+	printf("%d\n", arg - 1);
+	return (0);
+}
