@@ -4,3 +4,4 @@
 2. The best argument against democracy is a five-minute conversation with the average voter - Write a program that prints all arguments it receives.
 3. Neither irony nor sarcasm is argument - Write a program that multiplies two numbers.
 4. To infinity and beyond - Write a program that adds positive numbers.
+5. Minimal Number of Coins for Change - Write a program that prints the minimum number of coins to make change for an amount of money.
