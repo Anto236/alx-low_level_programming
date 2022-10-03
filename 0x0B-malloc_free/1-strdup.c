@@ -8,21 +8,16 @@
 char *_strdup(char *str)
 {
 	char *dup;
-	unsigned int i = 0;
+	unsigned int i = 0, j;
 
 	if (*str == '\0')
 	{
 		return (NULL);
 	}
-	dup = malloc(sizeof(char *));
-
-	if (dup == NULL)
-	{
-		return (NULL);
-	}
-	while ((dup[i] = str[i]) != '\0')
-	{
+	while (str[i])
 		i++;
-	}
+	dup = (char *) malloc(sizeof(char) * (i + 1));
+	for (j = 0; j <= i; j++)
+		dup[j] = str[j];
 	return (dup);
 }
