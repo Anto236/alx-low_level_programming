@@ -11,3 +11,4 @@ All files written in C
 | `3-op_functions.c` | file that contains functions that do arithmetic operations |
 | `3-get_op_func.c` | Function pointer that returns the pointer of the arithmetic functions |
 | `3-main.c` | entry of the program |
+| `100-main_opcodes.c` | program that prints the opcodes of its own main function|
