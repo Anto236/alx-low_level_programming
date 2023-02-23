@@ -1,0 +1,11 @@
+# Define variables
+CC = gcc
+SRC = main.c school.c
+HDR = m.h
+
+# Define target and rule
+all: school
+
+# Define school target and command
+school: $(SRC) $(HDR)
+	$(CC) -o school $(SRC)
