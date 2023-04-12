@@ -1,40 +1,16 @@
 #include "search_algos.h"
-/**
- * print_array - Prints an array of integers
- *
- * @array: The array to be printed
- * @left: The leftmost index of the array to be printed
- * @right: The rightmost index of the array to be printed
- */
-void print_array(int *array, size_t left, size_t right)
-{
-	size_t i;
 
-	printf("Searching in array: ");
-
-	for (i = left; i <= right; i++)
-	{
-		printf("%d", array[i]);
-		if (i != right)
-			printf(", ");
-	}
-	printf("\n");
-}
 /**
- * binary_search - Searches for a value in a sorted array of integers
- *                 using the Binary search algorithm
- *
- * @array: A pointer to the first element of the array to search in
- * @size: The number of elements in the array
- * @value: The value to search for
- *
- * Return: The index where the value is located, or -1 if not found
+ * binary_search - function to perform binary search on sortered array
+ * @array: pointer to first element of array to search
+ * @size: size of array to search
+ * @value: value to search for in array
+ * Return: index where value is located or -1 if it is not successfully located
  */
+
 int binary_search(int *array, size_t size, int value)
 {
-
-	size_t left = 0, right = size - 1;
-	size_t mid = 0;
+	int low = 0, high = size - 1, mid = (high + low) / 2, x = 0;
 
 	if (array == NULL)
 		return (-1);
@@ -42,16 +18,23 @@ int binary_search(int *array, size_t size, int value)
 	if (value == array[mid])
 		return (mid);
 
-	while (left <= right)
+	while (low <= high)
 	{
-		mid = (left + right) / 2;
-
-		print_array(array, left, right);
-
-		if (array[mid] < value)
-			left = mid + 1;
+		printf("Searching in array: ");
+		for (x = low; x <= high; x++)
+		{
+			if (x == high)
+				printf("%d\n", array[x]);
+			else
+				printf("%d, ", array[x]);
+		}
+		mid = (high + low) / 2;
+		if (value > array[mid])
+			low = mid + 1;
+		else if (value < array[mid])
+			high = mid - 1;
 		else
-			right = mid - 1;
+			return (mid);
 	}
 	return (-1);
 }
