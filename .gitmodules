@@ -1,3 +1,6 @@
 [submodule "Betty"]
 	path = Betty
 	url = https://github.com/alx-tools/Betty.git
+[submodule "0x11.C-printf"]
+	path = 0x11.C-printf
+	url = https://github.com/Anto236/printf.git
