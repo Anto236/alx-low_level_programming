@@ -4,3 +4,6 @@
 [submodule "0x11.C-printf"]
 	path = 0x11.C-printf
 	url = https://github.com/Anto236/printf.git
+[submodule "0x16.C-SimpleShell"]
+	path = 0x16.C-SimpleShell
+	url = https://github.com/Anto236/simple_shell.git
