@@ -7,3 +7,6 @@
 [submodule "0x16.C-SimpleShell"]
 	path = 0x16.C-SimpleShell
 	url = https://github.com/Anto236/simple_shell.git
+[submodule "0x19.C-Stacks,Queues-LIFO,FIFO"]
+	path = 0x19.C-Stacks,Queues-LIFO,FIFO
+	url = https://github.com/Anto236/monty.git
